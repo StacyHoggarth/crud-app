@@ -4,6 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
+		"dev network": "vite dev --host",
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -12,6 +13,12 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
+		"@smui/button": "^7.0.0-beta.0",
+		"@smui/card": "^7.0.0-beta.0",
+		"@smui/data-table": "^7.0.0-beta.0",
+		"@smui/dialog": "^7.0.0-beta.0",
+		"@smui/linear-progress": "^7.0.0-beta.0",
+		"@smui/textfield": "^7.0.0-beta.0",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.5.0",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
